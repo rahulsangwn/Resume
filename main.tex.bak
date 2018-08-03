@@ -1,0 +1,111 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[margin, centered]{res}
+\topmargin=0.1in
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.5in
+\itemsep=0in
+\parsep=0in
+\newsectionwidth{1in}
+\usepackage[pdftex]{graphicx}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{helvet}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\setlength{\textwidth}{6.5in} % Text width of the document
+\setlength{\textheight}{720pt}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------\
+\begin{center}
+    \hspace{-\hoffset}
+    \huge\bf{\href{https://github.com/rahulsangwn/Resume}{Rahul Sangwan}}
+\end{center}
+\vspace{-5mm}
+\moveleft\hoffset\vbox{\hrule width 19cm height 0.5pt}
+\vspace{-7mm}
+\begin{center}
+    \hspace{-\hoffset}
+    \href{mailto:xxxxxxxxxx59@gmail.com}{\texttt{xxxxxxxxxxxxxxxxx@gmail.com}} ~\textbullet~ \(+91\) XXXXXXXXXX ~\textbullet~ \#xxxxxxx, Haryana, India
+\end{center}
+\vspace{1mm}
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{Education}
+
+\textbf{M.Tech in Computer Science and Engineering, First Year} \hfill 2018 - 2020 \\
+\href{http://dcrustm.ac.in//}{Deenbandhu Chhotu Ram University of Science and Technology, Haryana}
+
+\textbf{B.Tech in Computer Science and Engineering} \hfill 2013 - 2017 \\
+\href{http://www.gjust.ac.in/}{Guru Jambheshware University of Science Technology, Haryana}
+
+\textbf{High School} - \href{http://www.mdurohtak.ac.in/info/campusschool.html/} {University Campus School MDU Rohtak, Haryana (CBSE) } \hfill 2012 - 2013 \\
+\textbf{Secondary School} - St Paul Bharati Public School Rohtak (CBSE)  \hfill 2010 - 2011 \\
+\vspace{4mm}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Technical \hspace{2mm} Skills}
+\textbf{Interested Areas} - Low-Level programming, Binary Exploitation, Sys-internals, Reverse engineering 
+
+\textbf{Languages} - C, Python, Java, C++, Javascript, \LaTeX, Shell Script, HTML/CSS, x86 Assembly
+
+\textbf{Tools} - Git, gdb, IDA Pro, Vim, Mongodb, GNS3, VMware Workstation, Photoshop CC, FASM
+
+\textbf{Libraries/Frameworks} - Bootstrap, JQuery, Semantic-UI, STL, node.js, ExpressJS
+\vspace{5mm}
+
+
+%----------------------------------------------------------------------------------------
+%	RELEVANT COURSE SECTION
+%----------------------------------------------------------------------------------------
+\section{Relevant \hspace{2mm} Courses}
+Data Structures and Algorithms, Operating System, Photoshop, Unix Programming, Advance Computer Networks, Databases, Automata Theory, Information Security, Java Complete Reference Udemy, CCNA Routing Switching, CCNA Security, Python Udemy, Discrete electronics, Computer Architecture, Web Developer Bootcamp Udemy
+\vspace{5mm}
+%----------------------------------------------------------------------------------------
+%	Selected Projects Section
+%----------------------------------------------------------------------------------------
+\section{Selected Projects}
+All projects available on git : \url{https://www.github.com/rahulsangwn}
+%\setlist[itemize]{
+\begin{itemize}[leftmargin=*]
+ \item \textbf{\href{https://github.com/rahulsangwn/OnlineMarketPlace}{Online MarketPlace}} :Web application for viewing and posting ad for buy and sell of goods. The site use Express.js web application framework and Node.js javascript runtime. It is responsive site made using bootstrap for index page and semantic-ui for rest of pages. Site Uses Embedded JavaScript templating and mongodb for database. Some npm packages like body-parser, mongoose, passport etc are also used.
+ \item \textbf{\href{https://github.com/rahulsangwn/CSVtoSQLite}{CSV to SQLite}} - Java Project to copy the data form csv(comma-separated values) file and adding into the SQLite Database in structured format using the Buffered Reader.
+ \item \textbf{Campus Network Mimic} : Design and configure a working network in GNS3 with Cisco IOS images of Routers, Switches, ASA Firewall. Implemented DHCP relay, IPv6 support and Network Address Translation on routers. Also integrated and implemented DHCP server roll and DNS server roll using Microsoft Server 2012 R2 with the help of Virtual Box.
+
+\end{itemize}
+\vspace{5mm}
+
+
+%----------------------------------------------------------------------------------------
+%	HOBBIES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Hobbies}
+Traveling, Watching Documentaries, Plantation
+\vspace{5mm}
+
+%----------------------------------------------------------------------------------------
+%	LINKS  SECTION
+%----------------------------------------------------------------------------------------
+
+\section{More}
+\textbf{Github} - \href{https://github.com/rahulsangwn}{\texttt{https://github.com/rahulsangwn/}} \\
+\textbf{Linkedin} - \href{https://www.linkedin.com/in/rahulsangwn/}{\texttt{https://www.linkedin.com/in/rahulsangwn/}} \\
+\textbf{Quora} - \href{https://www.quora.com/profile/Rahul-Sangwan-6}{\texttt{https://www.quora.com/profile/Rahul-Sangwan-6}}
+
+
+\end{resume}
+\end{document}
